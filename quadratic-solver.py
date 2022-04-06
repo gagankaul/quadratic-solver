@@ -20,7 +20,7 @@ def quadsolver():
     x1 = (-b - cmath.sqrt(b**2 - 4*a*c)) / (2*a)
     x2 = (-b + cmath.sqrt(b**2 - 4*a*c)) / (2*a)
 
-    print(f"\nThe solutions to {a}x^2 + {b}x + {c} are:")
+    print(f"\nThe solutions to {a}x^2 + {b}x + {c} = 0 are:")
     print("\n\tx1 = " + str(x1))
     print("\n\tx2 = " + str(x2))
 
